@@ -167,6 +167,8 @@ int main()
 		//GL_TRIANGLE_STRIP：顺序在每三个顶点之间均绘制三角形。以V0V1V2,V1V2V3,V2V3V4……的形式绘制三角形
 		// glBindVertexArray(0); // no need to unbind it every time 
 
+		// 不同的是glDrawElements绘制的是索引缓冲对象，按照指定的顶点索引来绘制
+
 		// glfw: swap buffers and poll IO events (keys pressed/released, mouse moved etc.)
 		// -------------------------------------------------------------------------------
 		glfwSwapBuffers(window);
